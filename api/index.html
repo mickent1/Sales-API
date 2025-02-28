@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">
+    <h1>API Showcase</h1>
+    <h4>SIMPLE WEBPAGE WITH API INTEGRATION</h4>
+    <p>(Click the buttons below to generate random photos)</p>
+    </div>
+    
+    <div class="container">
+        <div class="image-container">
+            <img id="outputImage" src="" alt="Output" style="display: none;">
+            <p id="outputText" style="display: none;"></p>
+        </div>
+    </div>
+    <div class="button-container">
+        <button onclick="fetchDog()">Show Dog</button>
+        <button onclick="fetchCat()">Show Cat</button>
+        <button onclick="fetchQuote()">Show Quote</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
